@@ -6,6 +6,6 @@ module shift_register4 (
 );
     always @(posedge clk) begin
         if (rst) value <= 4'd0;
-        else if (enable) value <= {value[2:0], serial_in};
+        else if (enable) value <= {serial_in, value[3:1]};
     end
 endmodule

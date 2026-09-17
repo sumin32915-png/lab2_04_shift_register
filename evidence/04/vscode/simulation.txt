@@ -3,3 +3,18 @@ RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\sumin\lab2_04_shift_register\build
 VCD info: dumpfile wave.vcd opened for output.
 LAB2_PASS shift_register4 checks=          8
 C:\Users\sumin\lab2_04_shift_register\sim\tb_shift_register4.sv:19: $finish called at 106000 (1ps)
+
+[2] FAIL 로그
+RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\sumin\lab2_04_shift_register\build\sim\run-59161ae25ca047f383ac0b97440dd857\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+LAB2_FAIL input enters MSB time=16000
+FATAL: C:\Users\sumin\lab2_04_shift_register\sim\tb_shift_register4.sv:12: check failed
+       Time: 16000  Scope: tb_shift_register4.check
+
+ERROR: 종료 코드 1: C:\Users\sumin\lab2_04_shift_register\build\sim\run-59161ae25ca047f383ac0b97440dd857\simulation.log
+
+[3] 복구 로그
+RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\sumin\lab2_04_shift_register\build\sim\run-7fb88a67dcfb4faabb7db98806ecc735\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+LAB2_PASS shift_register4 checks=          8
+C:\Users\sumin\lab2_04_shift_register\sim\tb_shift_register4.sv:19: $finish called at 106000 (1ps)
