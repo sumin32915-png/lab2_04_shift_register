@@ -1,0 +1,5 @@
+[1] PASS 로그
+RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\sumin\lab2_04_shift_register\build\sim\run-3e9624e0d1d3418baa154030d7dbe828\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+LAB2_PASS shift_register4 checks=          8
+C:\Users\sumin\lab2_04_shift_register\sim\tb_shift_register4.sv:19: $finish called at 106000 (1ps)
